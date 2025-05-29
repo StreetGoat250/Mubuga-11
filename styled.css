@@ -1,0 +1,161 @@
+.section-title {
+  text-align: center;
+  margin-top: 40px;
+  color: #7BA61F;
+  font-size: 28px;
+}
+
+.about-top {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.about-top img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.about-description {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-mission-vision {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.about-mission-vision div {
+  flex: 1;
+  background: #f2f9e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.team-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 4px solid #7BA61F;
+}
+
+.team-member h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.facility-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.facility-gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer-box {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-box h4 {
+  margin-bottom: 10px;
+}
+
+.footer-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 8px;
+}
+
+.footer-box p,
+.footer-box li {
+  font-size: 14px;
+}
+
+footer p.copyright {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
+.footer-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+}
+header {
+  background-color: #7BA61F;
+  padding: 40px 40px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+  vertical-align: middle;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
